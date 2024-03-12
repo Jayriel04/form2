@@ -1,0 +1,43 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.container h1 {
+    text-align: center;
+}
+  
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.container form label {
+    margin-bottom: 10px;
+}
+  
+.container form input[type="text"],
+
+.container form select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+.container form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.container form button[type="reset"] {
+    background-color: #f44336;
+}
+  
+.container .student-details {
+    margin-top: 20px;
+}
